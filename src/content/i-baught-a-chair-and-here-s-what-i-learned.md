@@ -1,9 +1,9 @@
 ---
-title: I baught a chair and here's what I learned
-date: 2022-04-09
-author: Pouya
-desc: Laudantium iste repellat et. Et officiis corporis. At est placeat voluptas aut. Soluta dolor quae quae tempora. Voluptatibus quibusdam natus. Facilis ea repellendus expedita voluptatum rerum autem.
-img: https://api.lorem.space/image/furniture?w=800&h=500
+title: Actividades del Desarrollo de Software
+date: 2023-02-22
+author: CarlDesigner
+desc: Las actividades del desarrollo de software abarcan todas las etapas o fases del proceso de creación de software, desde la planificación inicial hasta el mantenimiento posterior a la implementación. Algunas de las actividades más comunes en el desarrollo de software incluyen la planificación, el diseño, la implementación, la prueba y la entrega del software. Cada una de estas actividades es crucial para el éxito del proyecto y, por lo tanto, requiere una atención cuidadosa para garantizar que se cumplan los objetivos y se logren los resultados deseados, Aquí te presento las actividades mas comunes en el desarrollo de Software.
+img: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
 imgWidth: 800
 imgHeight: 500
 ---
