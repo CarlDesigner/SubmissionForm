@@ -1,10 +1,10 @@
 export const nav = [
   {
-    title: 'About',
+    title: 'Acerca de',
     slug: '/about',
   },
   {
-    title: 'Contact',
-    slug: '/contact',
+    title: 'Referencias',
+    slug: '/referencias',
   },
 ]
