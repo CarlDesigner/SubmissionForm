@@ -1,3 +1,0 @@
-# Daisy Blog
-
-Author: `@CarlDesigner`
