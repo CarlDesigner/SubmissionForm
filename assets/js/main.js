@@ -1,5 +1,5 @@
 /*=============== SHOW HIDDEN - PASSWORD ===============*/
-const showHiddenPass = (loginPass, loginEye) =>{
+/* const showHiddenPass = (loginPass, loginEye) =>{
    const input = document.getElementById(loginPass),
          iconEye = document.getElementById(loginEye)
 
@@ -23,4 +23,25 @@ const showHiddenPass = (loginPass, loginEye) =>{
    })
 }
 
-showHiddenPass('login-pass','login-eye')
+showHiddenPass('login-pass','login-eye') */
+/* ===================================================================== */
+import {guardarDatos} from './firebase.js'
+
+window.addEventListener('DOMContentLoaded', () => {
+   
+})
+
+const formEnvio = document.getElementById('form-envio')
+
+formEnvio.addEventListener('submit', (e) => {
+   e.preventDefault()
+
+   const nombre = formEnvio['input-nombre']
+   const contacto = formEnvio['input-contacto']
+   const correo = formEnvio['input-correo']
+   const cargo = formEnvio['input-cargo']
+
+
+   guardarDatos(nombre.value, contacto.value, correo.value, cargo.value)
+     
+})
