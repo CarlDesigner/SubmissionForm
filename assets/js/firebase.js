@@ -17,6 +17,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-export const guardarDatos = (nombre, contacto, correo, cargo) => {
-  addDoc(collection(db, 'datos'), { nombre, contacto, correo, cargo })
+export const guardarDatos = (nombre, contacto, correo) => {
+  addDoc(collection(db, 'datos'), { nombre, contacto, correo })
 };

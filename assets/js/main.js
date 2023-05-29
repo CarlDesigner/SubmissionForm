@@ -32,6 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 const formEnvio = document.getElementById('form-envio');
+const mensajeExito = document.getElementById('mensaje-exito');
 
 formEnvio.addEventListener('submit', (e) => {
    e.preventDefault();
@@ -39,10 +40,22 @@ formEnvio.addEventListener('submit', (e) => {
    const nombre = formEnvio['input-nombre'].value;
    const contacto = formEnvio['input-contacto'].value;
    const correo = formEnvio['input-correo'].value;
-   const cargo = formEnvio['input-cargo'].value;
+   //const cargo = formEnvio['input-cargo'].value;
 
-   guardarDatos(nombre, contacto, correo, cargo);
+   guardarDatos(nombre, contacto, correo);
 
    formEnvio.reset() 
+
+   // Mostrar el mensaje de éxito
+   mensajeExito.style.display = 'block';
+
+   // Desvanecer el mensaje de éxito después de 3 segundos
+   setTimeout(() => {
+      mensajeExito.style.opacity = '0';
+      setTimeout(() => {
+         mensajeExito.style.display = 'none';
+         mensajeExito.style.opacity = '1';
+      }, 1000);
+   }, 3000);
 });
 
